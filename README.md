@@ -1,6 +1,6 @@
 ## Hi there 👋
 
-```ngx-highlightjs
+```ts
 import { Routine } from '@week';
 
 @Component({
@@ -10,7 +10,7 @@ import { Routine } from '@week';
 	  `
    })
 
-export class DailyComponent {
+export class DailyRoutine {
   mood = 'normal';
   openVSorVSCode(){
     this.mood = 'great';
