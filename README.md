@@ -3,7 +3,7 @@
 ```ts
 import { Routine } from '@week';
 
-@Component({
+@Routine({
   template: `
 	  <h2>Lets make a day productive!</h2>
 	  <button (click)="openVSorVSCode()">OK</button>
