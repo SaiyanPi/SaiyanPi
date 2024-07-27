@@ -1,6 +1,6 @@
 ## Hi there 👋
 
-```
+```angular
 import { Routine } from '@week';
 
 @Component({
@@ -12,7 +12,7 @@ import { Routine } from '@week';
 
 export class DailyComponent {
   mood = 'normal';
-  openVS/VSCode(){
+  openVSorVSCode(){
     this.mood = 'great';
   }
 }
